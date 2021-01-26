@@ -4,9 +4,8 @@ import Button, {ButtonSize, ButtonType} from './components/button/button'
 const App: React.FC = () => {
   return (
     <div className="App">
-
+      {/* Button Style */}
       <Button>Common Button</Button>
-
       <Button onClick={(e) => {e.preventDefault(); console.log(e)}} btnType={ButtonType.Danger} size={ButtonSize.Large}>Danger Button</Button>
       <Button btnType={ButtonType.Primary} >Danger Button</Button>
       <Button btnType={ButtonType.Primary} size={ButtonSize.Small}>Danger Button</Button>
